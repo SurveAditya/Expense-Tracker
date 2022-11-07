@@ -1,0 +1,37 @@
+.register{
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-image: linear-gradient(to right, #30cfd0 0%, #330867 100%); */
+    /* background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%); */
+    /* background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%); */
+    /* background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%); */
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+}
+.lottie{
+    height:800px;
+}
+
+.register input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(15, 11, 11, 0.784);
+    color: rgba(12, 7, 7, 0.568);
+}
+
+input:focus{
+   outline: none !important;
+   box-shadow: none !important;
+   border-bottom: 1px solid rgba(7, 6, 6, 0.784) !important;
+}
+
+label , a{
+    color: rgba(16, 10, 10, 0.536) !important;
+}
+
+.register h1{
+    font-size: 50px;
+    color: rgb(8, 6, 6);
+    font-weight: 600;
+}
